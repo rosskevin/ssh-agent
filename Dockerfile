@@ -1,4 +1,5 @@
 FROM alpine:3.2
+MAINTAINER kevin.ross@alienfast.com
 
 ENV SOCKET_DIR /root/.ssh
 ENV SSH_AUTH_SOCK ${SOCKET_DIR}/socket
